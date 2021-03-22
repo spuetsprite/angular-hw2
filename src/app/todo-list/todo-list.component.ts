@@ -13,5 +13,8 @@ export class TodoListComponent{
     addTask(){
         this.tasks.push(this.task)
     }
+    delTask(){
+        this.tasks.pop()
+    }
 
 }
